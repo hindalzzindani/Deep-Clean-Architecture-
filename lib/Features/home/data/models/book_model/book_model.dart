@@ -1,4 +1,4 @@
-import 'package:bookly/Features/home/domain/entities/book_entity.dart';
+import 'package:deep_clean_architecture/Features/home/domain/entities/book_entity.dart';
 
 import 'access_info.dart';
 import 'sale_info.dart';

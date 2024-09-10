@@ -1,6 +1,6 @@
 {
-    "name": "clean_arch_bookly_app",
-    "short_name": "clean_arch_bookly_app",
+    "name": "deep_clean_architecture",
+    "short_name": "deep_clean_architecture",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",

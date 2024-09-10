@@ -15,6 +15,10 @@ class BestSellerListView extends StatelessWidget {
         return const Padding(
           padding: EdgeInsets.symmetric(vertical: 10),
           child: BookListViewItem(),
+          // Divider(
+          //   color: Colors.grey.withOpacity(0.2),
+          //   height: 1,
+          // ),
         );
       },
     );

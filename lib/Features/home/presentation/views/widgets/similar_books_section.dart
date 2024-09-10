@@ -1,4 +1,4 @@
-import 'package:bookly/Features/home/presentation/views/widgets/similar_books_list_view.dart';
+import 'package:deep_clean_architecture/Features/home/presentation/views/widgets/similar_books_list_view.dart';
 import 'package:flutter/material.dart';
 
 import '../../../../../core/utils/styles.dart';

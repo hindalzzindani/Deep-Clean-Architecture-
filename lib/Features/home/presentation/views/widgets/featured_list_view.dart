@@ -1,4 +1,4 @@
-import 'package:bookly/Features/home/presentation/manger/featured_books_cubit/featured_books_cubit.dart';
+import 'package:deep_clean_architecture/Features/home/presentation/manger/featured_books_cubit/featured_books_cubit.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 

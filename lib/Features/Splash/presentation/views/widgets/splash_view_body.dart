@@ -1,13 +1,11 @@
-import 'package:bookly/Features/home/presentation/views/home_view.dart';
-import 'package:bookly/constants.dart';
-import 'package:bookly/core/utils/app_router.dart';
-import 'package:bookly/core/utils/assets.dart';
+import 'package:deep_clean_architecture/Features/home/presentation/views/home_view.dart';
+import 'package:deep_clean_architecture/constants.dart';
+import 'package:deep_clean_architecture/core/utils/app_router.dart';
+import 'package:deep_clean_architecture/core/utils/assets.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
-
 import 'sliding_text.dart';
-
 class SplashViewbody extends StatefulWidget {
   const SplashViewbody({Key? key}) : super(key: key);
 
@@ -57,7 +55,7 @@ class _SplashViewbodyState extends State<SplashViewbody>
     );
 
     slidingAnimation =
-        Tween<Offset>(begin: const Offset(0, 2), end: Offset.zero)
+        Tween<Offset>(begin: const Offset(0, 5), end: Offset.zero)
             .animate(animationController);
 
     animationController.forward();

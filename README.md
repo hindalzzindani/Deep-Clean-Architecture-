@@ -1,4 +1,4 @@
-# clean_arch_bookly_app
+# deep_clean_architecture
 
 A new Flutter project.
 

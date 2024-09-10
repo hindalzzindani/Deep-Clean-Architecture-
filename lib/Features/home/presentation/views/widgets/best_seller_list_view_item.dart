@@ -1,4 +1,4 @@
-import 'package:bookly/core/utils/app_router.dart';
+import 'package:deep_clean_architecture/core/utils/app_router.dart';
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:go_router/go_router.dart';
@@ -24,9 +24,10 @@ class BookListViewItem extends StatelessWidget {
             AspectRatio(
               aspectRatio: 2.5 / 4,
               child: Container(
+                padding: EdgeInsets.only(left: 2.0,right: 2.0),
                 decoration: BoxDecoration(
                     borderRadius: BorderRadius.circular(8),
-                    color: Colors.red,
+                    color: Colors.orange,
                     image: const DecorationImage(
                       fit: BoxFit.fill,
                       image: AssetImage(
@@ -58,6 +59,7 @@ class BookListViewItem extends StatelessWidget {
                   ),
                   const Text(
                     'J.K. Rowling',
+
                     style: Styles.textStyle14,
                   ),
                   const SizedBox(
@@ -78,9 +80,13 @@ class BookListViewItem extends StatelessWidget {
                 ],
               ),
             ),
+
           ],
         ),
+
       ),
+
     );
+
   }
 }

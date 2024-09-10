@@ -1,4 +1,4 @@
-import 'package:bookly/Features/home/domain/repos/home_repo.dart';
+import 'package:deep_clean_architecture/Features/home/domain/repos/home_repo.dart';
 import 'package:dartz/dartz.dart';
 
 import '../../../../core/errors/failure.dart';

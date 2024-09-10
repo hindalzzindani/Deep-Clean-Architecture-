@@ -1,10 +1,10 @@
-import 'package:bookly/Features/home/data/data_sources/home_local_data_source.dart';
-import 'package:bookly/Features/home/data/data_sources/home_remote_data_source.dart';
+import 'package:deep_clean_architecture/Features/home/data/data_sources/home_local_data_source.dart';
+import 'package:deep_clean_architecture/Features/home/data/data_sources/home_remote_data_source.dart';
 import 'package:dartz/dartz.dart';
 
-import 'package:bookly/core/errors/failure.dart';
+import 'package:deep_clean_architecture/core/errors/failure.dart';
 
-import 'package:bookly/Features/home/domain/entities/book_entity.dart';
+import 'package:deep_clean_architecture/Features/home/domain/entities/book_entity.dart';
 import 'package:dio/dio.dart';
 
 import '../../domain/repos/home_repo.dart';

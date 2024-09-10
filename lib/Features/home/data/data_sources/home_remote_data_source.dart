@@ -1,7 +1,7 @@
-import 'package:bookly/Features/home/data/models/book_model/book_model.dart';
-import 'package:bookly/constants.dart';
-import 'package:bookly/core/utils/api_service.dart';
-import 'package:bookly/core/utils/functions/save_books.dart';
+import 'package:deep_clean_architecture/Features/home/data/models/book_model/book_model.dart';
+import 'package:deep_clean_architecture/constants.dart';
+import 'package:deep_clean_architecture/core/utils/api_service.dart';
+import 'package:deep_clean_architecture/core/utils/functions/save_books.dart';
 
 import '../../domain/entities/book_entity.dart';
 
